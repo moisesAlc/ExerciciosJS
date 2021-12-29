@@ -1,7 +1,7 @@
-import Botao from "./botao.js"
+import BotaoFacade from "./botao.js"
 
 const Deletar = () => {
-    return Botao('danger','Deletar','trash-alt',clickDeletar)
+    return BotaoFacade('danger','Deletar','trash-alt',clickDeletar)
 }
 
 const clickDeletar = (evento) => {

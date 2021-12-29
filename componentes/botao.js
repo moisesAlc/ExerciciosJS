@@ -1,4 +1,4 @@
-const Botao = (classeCorFundo, texto, icone, funcao) => {
+const BotaoFacade = (classeCorFundo, texto, icone, funcao) => {
     const divBotao = document.createElement('div')
     divBotao.classList.add('col-2','text-center')
 
@@ -22,4 +22,4 @@ const Botao = (classeCorFundo, texto, icone, funcao) => {
     return divBotao
 }
 
-export default Botao
+export default BotaoFacade

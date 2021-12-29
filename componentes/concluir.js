@@ -1,8 +1,8 @@
-import Botao from "./botao.js"
+import BotaoFacade from "./botao.js"
 
 const Concluir = () => {
 
-    return Botao('success','Concluir','check',clickConcluir)
+    return BotaoFacade('success','Concluir','check',clickConcluir)
 }
 
 const clickConcluir = (evento) => {

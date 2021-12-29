@@ -1,7 +1,7 @@
-import Botao from "./botao.js"
+import BotaoFacade from "./botao.js"
 
 const Editar = () => {
-    return Botao('primary', 'Editar', 'edit', clickEditar)
+    return BotaoFacade('primary', 'Editar', 'edit', clickEditar)
 }
 
 const clickEditar = (evento) => {
